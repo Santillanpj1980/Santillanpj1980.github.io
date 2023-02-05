@@ -1,0 +1,94 @@
+.dir{
+	background: blue;
+}
+p{
+	color: black;
+	display: table-cell;
+	padding: 20px;
+}
+img{
+	width: 70px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+li{
+	display: table-cell;
+	padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-family: fantasy;
+}
+nav{
+	float: right;
+	margin-right: 100px;
+
+}
+li:hover{
+	background-color: orange;
+	border-radius: 10px;
+	
+}
+li:hover a{
+	color: white;
+}
+section{
+	background: beige;
+
+}
+
+/* IMAGEN DE FONDO*/
+body{
+	background-image: url("images/TAQUERIA-3.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* TAMAÑO DEL PLATO DE TACOS*/
+
+.contenedor1 img{
+	margin-top: 10px;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+.contenedor2 img{
+	margin-top: 15px;
+    width: 700px;
+    border-radius: 25px;
+
+}
+
+.contenedor3 img{
+	margin-top: 15px;
+    width: 700px;
+    border-radius: 25px;
+
+}
+
+.contenedor1{
+	display: flex;
+	justify-content: center;
+}
+
+.contenedor2{
+	display: flex;
+	justify-content: center;
+}
+
+.textos{
+	align-self: center;
+	justify-content: justify;
+
+}
+
+.textos1{
+	align-self: center;
+	justify-content: justify;
+
+}
+
